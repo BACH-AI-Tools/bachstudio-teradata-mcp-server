@@ -1,11 +1,11 @@
 [project]
-name = "teradata-mcp-server"
+name = "bachstudio-teradata-mcp-server"
 version = "0.1.6"
-description = "Model Context Protocol (MCP) server for Teradata, Community edition"
+description = "Model Context Protocol (MCP) server for Teradata, Community edition by BachStudio"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {text = "MIT"}
 authors = [
-    {name = "Teradata"}
+    {name = "bachstudio"}
 ]
 requires-python = ">=3.11"
 keywords = ["teradata", "mcp", "database", "sql", "model-context-protocol"]
@@ -56,15 +56,15 @@ dev = [
 ]
 
 [project.scripts]
-teradata-mcp-server = "teradata_mcp_server:main"
+bachstudio-teradata-mcp-server = "teradata_mcp_server:main"
 
 [project.urls]
-Homepage = "https://github.com/Teradata/teradata-mcp-server"
-Documentation = "https://github.com/Teradata/teradata-mcp-server#readme"
-Repository = "https://github.com/Teradata/teradata-mcp-server.git"
-"Bug Tracker" = "https://github.com/Teradata/teradata-mcp-server/issues"
-"Source" = "https://github.com/Teradata/teradata-mcp-server"
-"Discussions" = "https://github.com/Teradata/teradata-mcp-server/discussions"
+Homepage = "https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server"
+Documentation = "https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server#readme"
+Repository = "https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server.git"
+"Bug Tracker" = "https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server/issues"
+"Source" = "https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server"
+"Original Project" = "https://github.com/Teradata/teradata-mcp-server"
 
 [build-system]
 requires = ["hatchling>=1.17.0"]

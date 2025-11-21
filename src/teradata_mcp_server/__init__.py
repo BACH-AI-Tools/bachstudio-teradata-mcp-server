@@ -9,7 +9,7 @@ Lightweight MCP server tools for Teradata.
 from importlib.metadata import version, PackageNotFoundError
 
 try:
-    __version__ = version("teradata-mcp-server")
+    __version__ = version("bachstudio-teradata-mcp-server")
 except PackageNotFoundError:
     __version__ = "0.0.0"
 

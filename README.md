@@ -4,32 +4,27 @@
   
 </p>
 
-<h1 align="center">Teradata MCP Server</h1>
+<h1 align="center">BachStudio Teradata MCP Server</h1>
 
 <p align="center">
-  <a href="https://github.com/Teradata/teradata-mcp-server/blob/main/docs/README.md">
-    <img alt="docs" src="https://img.shields.io/badge/docs-readme-555?logo=readthedocs">
+  <a href="https://pypi.org/project/bachstudio-teradata-mcp-server/">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/bachstudio-teradata-mcp-server">
   </a>
-  <a href="https://github.com/Teradata/teradata-mcp-server/releases">
-    <img alt="release" src="https://img.shields.io/github/v/release/Teradata/teradata-mcp-server?display_name=tag&sort=semver">
-  </a>
-  <a href="https://pypi.org/project/teradata-mcp-server/">
-    <img alt="PyPI" src="https://img.shields.io/pypi/v/teradata-mcp-server">
-  </a>
-  <a href="https://pypi.org/project/teradata-mcp-server/">
-    <img alt="downloads" src="https://img.shields.io/pypi/dm/teradata-mcp-server?label=downloads&color=2ea44f">
-  </a>
-  <a href="./examples/app-flowise/flowise_teradata_agents/README.md">
-    <img alt="docs" src="https://img.shields.io/badge/Teradata--Agents-Setup-green">
+  <a href="https://github.com/BACH-AI-Tools/bachstudio-teradata-mcp-server">
+    <img alt="GitHub" src="https://img.shields.io/github/stars/BACH-AI-Tools/bachstudio-teradata-mcp-server?style=social">
   </a>
 </p>
 
 <p align="center">
-  Model Context Protocol (MCP) server for Teradata
+  Model Context Protocol (MCP) server for Teradata - BachStudio Edition
  </p>
 
 <p align="center">
-  ✨ <a href="https://github.com/Teradata/teradata-mcp-server?tab=readme-ov-file#quick-start-with-claude-desktop-no-installation">Quickstart with Claude Desktop </a> or <a href="https://github.com/Teradata/teradata-mcp-server/blob/main/docs/README.md#-quick-start"> your favorite tool</a> in <5 minute ✨
+  ✨ 快速开始使用 Claude Desktop 或您喜欢的工具，不到5分钟 ✨
+</p>
+
+<p align="center">
+  <strong>基于原项目:</strong> <a href="https://github.com/Teradata/teradata-mcp-server">Teradata/teradata-mcp-server</a>
 </p>
 
 
@@ -81,7 +76,7 @@ Configure the claude_desktop_config.json (Settings>Developer>Edit Config) by add
   "mcpServers": {
     "teradata": {
       "command": "uvx",
-      "args": ["teradata-mcp-server"],
+      "args": ["bachstudio-teradata-mcp-server"],
       "env": {
         "DATABASE_URI": "teradata://<USERNAME>:<PASSWORD>@<HOST_URL>:1025/<USERNAME>"
       }
